@@ -18,7 +18,7 @@ public class ListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list);
 
         ListView lvNama = (ListView) findViewById(R.id.lvNama);
-
+        String[] nama = {"muhammad thufail ahnaf", "jarjit", "ijad", "fizi"};
         ArrayList<String> daftar_nama = getIntent().getExtras().getStringArrayList("daftar_nama");
 
         if(daftar_nama.isEmpty()){
